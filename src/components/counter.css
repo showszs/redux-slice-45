@@ -1,0 +1,34 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.counter {
+  text-align: center;
+}
+
+.counter__title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.counter__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 20px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #757677;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a5ab4d;
+}
